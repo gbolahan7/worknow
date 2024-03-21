@@ -205,5 +205,5 @@
        <!-- Bottom Banner -->
       
      
-  <?php require basePath('views/partials/bottom-banner.php');?>
-  <?php require basePath('views/partials/footer.php');?>
+  <?php loadPartial('bottom-banner');?>
+  <?php loadPartial('footer');?>
