@@ -4,20 +4,11 @@
   <?php loadPartial('showcase-search');?>
   <?php loadPartial('top-banner');?>
 
-    <!-- Nav -->
-    
-
-    <!-- Showcase -->
-   
-
-    <!-- Top Banner -->
-    
-    <!-- Job Listings -->
     <section>
       <div class="container mx-auto p-4 mt-4">
         <div class="text-center text-3xl mb-4 font-bold border border-gray-300 p-3">Recent Jobs</div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-          <!-- Job Listing 1: Software Engineer -->
+          <!-- Job Listing 1 -->
           <div class="rounded-lg shadow-md bg-white">
             <div class="p-4">
               <h2 class="text-xl font-semibold">Software Engineer</h2>
@@ -47,7 +38,7 @@
             </div>
           </div>
 
-          <!-- Job Listing 2: Marketing Specialist -->
+          <!-- Job Listing 2-->
           <div class="rounded-lg shadow-md bg-white">
             <div class="p-4">
               <h2 class="text-xl font-semibold">Marketing Specialist</h2>
@@ -77,7 +68,7 @@
             </div>
           </div>
 
-          <!-- Job Listing 3: Web Developer -->
+          <!-- Job Listing 3-->
           <div class="rounded-lg shadow-md bg-white">
             <div class="p-4">
               <h2 class="text-xl font-semibold">Web Developer</h2>
@@ -107,7 +98,7 @@
             </div>
           </div>
 
-          <!-- Job Listing 4: Data Analyst -->
+          <!-- Job Listing 4 -->
           <div class="rounded-lg shadow-md bg-white">
             <div class="p-4">
               <h2 class="text-xl font-semibold">Data Analyst</h2>
@@ -137,7 +128,7 @@
             </div>
           </div>
 
-          <!-- Job Listing 5: Graphic Designer -->
+          <!-- Job Listing 5-->
           <div class="rounded-lg shadow-md bg-white">
             <div class="p-4">
               <h2 class="text-xl font-semibold">Graphic Designer</h2>
@@ -201,9 +192,6 @@
           Show All Jobs
         </a>
       </section>
-
-       <!-- Bottom Banner -->
       
-     
   <?php loadPartial('bottom-banner');?>
   <?php loadPartial('footer');?>
